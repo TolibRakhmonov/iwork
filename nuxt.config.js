@@ -28,14 +28,15 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    {src: '~/plugins/vue-awesome-swiper.js', ssr: false}
+    {src: '~/plugins/vue-awesome-swiper.js', ssr: false},
+    {src: '~/plugins/global.js'}
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
   ],
   /*
    ** Build configuration
