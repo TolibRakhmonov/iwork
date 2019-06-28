@@ -205,6 +205,9 @@ export default {
 </script>
 
 <style scoped>
+body{
+  overflow-x: hidden;
+}
 .banner{
   background-color: rgb(234, 182, 18);
   width: 100%;
@@ -312,7 +315,7 @@ line-height: 35px;
 text-transform: uppercase;
 }
 .content3{
-  width: 1920px;
+  width: 100%;
   height: 643px;
   background-color: #f9f9f9;
   padding-top: 30px;
@@ -336,7 +339,7 @@ text-transform: uppercase;
 /* Fourth Section */
 .content4{
 background: url('~assets/imgs/bg4.png');
-width: 1920px;
+width:100%;
 height: 367px;
 background-color: rgba(39, 39, 39, 0.76);
 padding-top: 130px;

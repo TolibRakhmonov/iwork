@@ -131,7 +131,7 @@ export default {
 
 <style scoped>
     .tarifs{
-        width: 1920px;
+        width: 100%;
         height: 713px;
         background-color: #f9f9f9;
     }

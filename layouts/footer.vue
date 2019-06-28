@@ -36,9 +36,9 @@ export default {
 
 <style scoped>
     .footer{
-        width: 1922px;
-        height: 345px;
-        background: url('~assets/imgs/footer_bg.png')
+        width: 100%;
+        background: url('~assets/imgs/footer_bg.png');
+        padding-bottom: 30px;
     }
     .footer_logo{
         padding-top: 30px;

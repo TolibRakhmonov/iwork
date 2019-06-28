@@ -9,10 +9,10 @@
         <!-- Links -->
         <div class="desktop-menu">
             <h5> 
-                <nuxt-link class="nav-link" to="#">Услуги и цены</nuxt-link>
+                <nuxt-link class="nav-link" to="/services">Услуги и цены</nuxt-link>
             </h5>
             <h5> 
-                <nuxt-link class="nav-link" to="#">Акции и скидки</nuxt-link>
+                <nuxt-link class="nav-link" to="/discount">Акции и скидки</nuxt-link>
             </h5>
             <h5>
                 <nuxt-link class="nav-link" to="#">Резиденты</nuxt-link>
